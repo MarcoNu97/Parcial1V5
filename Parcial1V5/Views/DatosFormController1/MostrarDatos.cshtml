@@ -1,0 +1,51 @@
+﻿@model Parcial1V5.Models.DatosForm
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Datos de Venta</title>
+
+</head>
+
+
+
+<body>
+    <div aling="center">
+        <table style="width:60% border="1">
+
+            <tr>
+
+                <th>Cuit</th>
+                <th>Razon Social</th>
+                <th>Domicilio</th>
+                <th>Email</th>
+
+            </tr>
+
+            <tr>
+                <td>@Model.Cuit</td>
+                <td>@Model.RazonSocial</td>
+                <td>@Model.Domicilio</td>
+                <td>@Model.Email</td>
+            </tr>
+
+        </table>
+
+
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>
